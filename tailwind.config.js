@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('/img/hero-bg.jpg')",
+      },
+      fontFamily: {
+        lexend: ['Lexend'],
+        zilla: ['Zilla SLab']
+      },
+    },
   },
   plugins: [],
 }
