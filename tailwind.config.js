@@ -7,7 +7,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url('/img/hero-bg.jpg')",
-       
+        'about': "url('/img/about-img.jpg')",
+        'signup': "url('/img/signup-img.jpg')",
+        'login': "url('/img/login-img.jpg')",
+        'admin': "url('/img/admin-img.jpg')",
       },
       fontFamily: {
         lexend: ['Lexend'],
